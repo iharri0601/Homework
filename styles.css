@@ -6,3 +6,10 @@ h1 {
   font-family: serif, inherit;
   font-size: 45px;
 }
+h2 {
+  font-family: serif, inherit;
+  font-size: 45px;
+}
+p {
+  font-size: 25px;
+}
