@@ -1,0 +1,8 @@
+body {
+  background: Grey;
+  color: turquoise;
+}
+h1 {
+  font-family: serif, inherit;
+  font-size: 45px;
+}
