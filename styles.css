@@ -1,5 +1,5 @@
 body {
-  background: Grey;
+  background: gray;
   color: turquoise;
 }
 h1 {
@@ -12,4 +12,7 @@ h2 {
 }
 p {
   font-size: 25px;
+}
+header {
+  background-color: white
 }
