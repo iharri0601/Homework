@@ -14,5 +14,44 @@ p {
   font-size: 25px;
 }
 header {
-  background-color: white
+  background-color: orange;
+}
+.shop-recommanded-shoes div {
+  display: inline-block;
+  width: 30.9%;
+  background-color: orange;
+  border: 15px solid orange;
+  margin: -2px;
+}
+h3 {
+  background-color: Blue;
+  margin-bottom: 2px;
+  margin-left: -3px;
+  padding: 11px;
+  text-align: center;
+}
+.menu div {
+  display: inline-block;
+  margin-left: 20px;
+}
+.options div{
+  display: inline-block;
+  margin-right: 20px;
+}
+nav {
+  display: inline-block;
+  width: 40%;
+}
+.right {
+  text-align: right;
+}
+.left {
+  text-align: left;
+}
+.logo {
+  width: 55px;
+}
+.shoes {
+  width: 150px;
+  display: block;
 }
