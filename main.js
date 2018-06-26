@@ -100,3 +100,87 @@ console.assert(typeof greeting === 'string', 'Oops! The variable \'greeting\' is
 console.assert(greeting.length === name.length + 8, 'Oops! The variable \'greeting\' is not the right length. Try again!');
 console.assert(answer === 'd', 'Oops! That\'s the wrong answer for # 4. Try again!');
 console.assert(primitives === 'c', 'Oops! That\'s the wrong answer for # 4. Try again!');
+
+// Hey Carolina Code School Hackers! Enjoy!
+// Make sure to open your js consoles!
+
+// NUMBER 1: REFACTOR addNumbers
+
+// The below function does not work. The variable twoPlusTwo gets set to undefined.
+// Refactor the function to make it work.
+
+function addnumbers(numberA, numberB) {
+  'use strict';
+  console.log(numberA + numberB);
+  return numberA + numberB;
+}
+
+var PlusTwo = addnumbers(2, 2);
+
+console.log(`number 1: {PlusTwo}`);
+
+// Number 2: yell()
+// Write a function named yell that returns an uppercase version of a string
+var myyell = yell( "hello ",  "there! ")
+function yell(word1, word2) {
+  myyell = word1 + word2;
+  console.log("Inside function: " + myyell.toUpperCase());
+  return [myyell + word1];
+}
+
+
+
+
+
+
+
+
+
+// Number 3: yell10()
+// Write a function called yell10 that uses your yell function to
+// log out an uppercase version of a string 10 times.
+var myyell10 = yell10("I'm ", "izaiah!")
+function yell10(word1, word2) {
+  myyell10 = word1 + word2;
+  console.log("Inside function: " + myyell10.toUpperCase() + myyell10.toUpperCase() + myyell10.toUpperCase() + myyell10.toUpperCase() + myyell10.toUpperCase() + myyell10.toUpperCase() + myyell10.toUpperCase() + myyell10.toUpperCase() + myyell10.toUpperCase() + myyell10.toUpperCase());
+  return [myyell10 + word1];
+}
+
+
+
+
+
+
+
+
+
+// Number 4: longest()
+function longest(word1, word2) {
+  console.log(word1.length);
+  console.log(word2.length);
+
+  if (word1.length > word2.length) {
+    return word1 + " is longer";
+  }else{
+   return word2 + " is longer";
+  }
+};
+longest("Hey","Goodbye ");
+
+
+
+
+
+
+
+
+
+// Number 5: isVowel()
+// Write a function called isVowel that takes a character (i.e. a string of length 1)
+// and returns true if it is a vowel, uppercase or lowercase. The function should return
+// false if the character is not a vowel.
+function isVowel(letter) {
+ var vowel = ["a","e","i","o",];
+ var uppercase = ["A","B","C","D"];
+ var lowercase = ["a","b","c","d"];
+}
