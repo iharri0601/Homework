@@ -180,7 +180,31 @@ longest("Hey","Goodbye ");
 // and returns true if it is a vowel, uppercase or lowercase. The function should return
 // false if the character is not a vowel.
 function isVowel(letter) {
- var vowel = ["a","e","i","o",];
+ var vowels = ["a","e","i","o"];
  var uppercase = ["A","B","C","D"];
  var lowercase = ["a","b","c","d"];
+
+ if (vowels.indexOf(letter) >-1) {
+ console.log(letter);
+ return true;
+} else {
+  return false;
 }
+};
+console.log(isVowel("A"));
+
+$(".men-toggle").click(function() {
+  $(".women").hide();
+  $(".men").show();
+});
+
+$(".women-toggle").click(function() {
+  $(".men").hide();
+  $(".women").show();
+});
+
+$(".purchase").click(function() {
+  var currentshoppingcart = $(".shopping-cart span").html();
+  var newshoppingcart = parseInt(currentshoppingcart) + 1;
+  $(".shopping-cart span").html(newshoppingcart);
+});
