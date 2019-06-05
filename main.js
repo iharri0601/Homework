@@ -194,13 +194,13 @@ function isVowel(letter) {
 console.log(isVowel("A"));
 
 $(".men-toggle").click(function() {
-  $(".women").hide();
-  $(".men").show();
+  $(".women-clothing").hide();
+  $(".men-clothing").show();
 });
 
 $(".women-toggle").click(function() {
-  $(".men").hide();
-  $(".women").show();
+  $(".men-clothing").hide();
+  $(".women-clothing").show();
 });
 
 $(".purchase").click(function() {
